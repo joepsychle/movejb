@@ -1,0 +1,18 @@
+.contact{
+	background:$white;
+	border-bottom: 1px solid black;
+	padding-bottom: $gap;
+	.contact-inner{
+		margin:0 auto;
+		
+		.col{
+			width:50%;
+			text-align: center;
+			float:left;
+			margin-top:30px;
+				img { display: block;max-width:100%;}
+		}
+
+
+}	
+}

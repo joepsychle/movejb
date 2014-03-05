@@ -1,0 +1,55 @@
+.services {
+	border-top: 1px solid black;
+	width:100%;
+	padding-top:$gap/2;
+	margin-bottom: $gap/2;
+	background: $lightgray;
+	color:$darkgray;
+	.services-article {
+		font-size: .80em;
+		background: $white;
+		padding: 15px;		
+	}
+	.services-article h3{
+		text-align: center;
+		padding-top: 20px;
+		margin-bottom: 10px;
+
+	}
+
+
+		h2{
+			text-align: center;
+
+		}
+		
+
+	
+		.main-header{
+			width:100%;
+			p{
+				text-align: center;
+				margin-top: -30px;
+				margin-bottom: $gap;
+				font-size: 1.5em;
+			}
+
+			img{
+				width:100%;
+				max-width: 100%;
+				margin: 0 auto;
+				border: $gap solid $jbblue;
+
+			}
+			
+		}
+
+	
+	
+
+
+
+
+}
+
+

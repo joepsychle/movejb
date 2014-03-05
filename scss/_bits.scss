@@ -1,0 +1,61 @@
+$jbblue:#3853a1;//rgba(56, 83, 161, 1)
+$lightblue:#4a6abf;//rgba(74, 106, 191, 1)
+$darkblue:#263b79;//rgba(38, 59, 121, 1)
+$darkgray:#585858;//rgba(88, 88, 88, 1)
+$lightgray:#dcdcdc;//rgba(220, 220, 220, 1)
+$white:#f9f9f9;//rgba(249, 249, 249, 1)
+
+$gap:40px;
+
+@mixin font-stack-light {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+}
+
+@mixin font-stack-normal {
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+}
+
+@mixin font-stack-headers {
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+}
+
+@mixin font-stack-cursive {
+font-family: 'Allura', cursive;
+font-weight: 300;
+
+}
+
+
+
+// use breakpoints like:
+// @include breakpoint(mama-bear)
+	
+@mixin breakpoint($point) {
+	 
+	 @if $point == alpha {
+	  @media (max-width:1280px) { @content; }
+	  }	
+	 @if $point == beta {
+	   @media (max-width:1024px) { @content; }
+	  }		
+	 @if $point == gamma {
+	   @media (max-width:768px) { @content; }
+	  }
+	 @if $point == delta {
+	   @media (max-width:640px) { @content; }
+	  }
+	 @if $point == epsilon {
+	   @media (max-width:480px) { @content; }
+	  }
+	 @if $point == digamma {
+ 	   @media (max-width:320px) { @content; }
+ 	  }
+		
+}
+
+
+
+

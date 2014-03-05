@@ -1,0 +1,30 @@
+@import "normal";
+@import "bits";
+@import "typography";
+@import "tools";
+@import "header";
+@import "contact";
+@import "nav";
+@import "form";
+@import "map";
+@import "footer";
+@import "who";
+@import "social";
+@import "resident";
+
+*{box-sizing:border-box;}
+
+body{
+	background:$white;
+}
+
+
+.container {
+	width:100%;
+	margin:0 auto;
+	max-width: 100%;
+}       
+
+
+
+
